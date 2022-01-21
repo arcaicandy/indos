@@ -18,7 +18,7 @@ struct ContentView: View {
                 Section(header: SectionHeader(title: "Carbohydrate coverage"))
                 {
                     FieldRow(title: "Carbohydrate content", value: $inDosData.coverageCarbContent)
-                    FieldRow(title: "Carbohydrate ratio", value: $inDosData.coverageCarbRatio)
+                    FieldRow(title: "Units to carbs (10g)", value: $inDosData.coverageCarbRatio)
                     ResultRow(title: "Insulin dose required", value: inDosData.coverageDoseRequired)
                 }
                 Section (header: SectionHeader(title: "Blood sugar correction"))
@@ -47,7 +47,7 @@ struct ContentView: View {
                     }
                 }))
             .navigationTitle("Insulin Dosage")
-            .navigationBarTitleDisplayMode(.inline)
+            .navigationBarHidden(true)
         }
     }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315BE26D279B2153002304F5 /* indos.png in Resources */ = {isa = PBXBuildFile; fileRef = 315BE26C279B2153002304F5 /* indos.png */; };
 		317381A92781DE94003A6968 /* InDosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317381A82781DE94003A6968 /* InDosApp.swift */; };
 		317381AB2781DE94003A6968 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317381AA2781DE94003A6968 /* ContentView.swift */; };
 		317381AD2781DE95003A6968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 317381AC2781DE95003A6968 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		315BE26C279B2153002304F5 /* indos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indos.png; sourceTree = "<group>"; };
 		317381A52781DE94003A6968 /* InDos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InDos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317381A82781DE94003A6968 /* InDosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InDosApp.swift; sourceTree = "<group>"; };
 		317381AA2781DE94003A6968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				DF3FD4FE2789F26E00B79787 /* Views */,
 				317381AC2781DE95003A6968 /* Assets.xcassets */,
 				317381B12781DE95003A6968 /* Info.plist */,
+				315BE26C279B2153002304F5 /* indos.png */,
 				317381AE2781DE95003A6968 /* Preview Content */,
 			);
 			path = InDos;
@@ -148,6 +151,7 @@
 			files = (
 				317381B02781DE95003A6968 /* Preview Assets.xcassets in Resources */,
 				317381AD2781DE95003A6968 /* Assets.xcassets in Resources */,
+				315BE26D279B2153002304F5 /* indos.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,7 @@ struct FieldRow: View {
             TextField(defaultValue, value: $value, formatter: DecimalNumberFormatter)
                 .keyboardType(.decimalPad)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .frame(minWidth:44, maxWidth: 60)
+                .frame(minWidth:50, maxWidth: 65)
                 .multilineTextAlignment(.center)
         }
         .font(.body)

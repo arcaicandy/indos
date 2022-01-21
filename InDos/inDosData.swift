@@ -58,7 +58,7 @@ class InDosData : ObservableObject {
     
     func getCoverageDoseRequired() -> Double {
         if (coverageCarbRatio > 0) {
-            return coverageCarbContent / coverageCarbRatio
+            return coverageCarbContent / (10 / coverageCarbRatio)
         } else {
             return 0
         }

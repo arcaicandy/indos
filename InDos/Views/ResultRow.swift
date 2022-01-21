@@ -21,7 +21,7 @@ struct ResultRow: View {
             Text("\(value, specifier: specifier)")
                 .font(.body)
                 .lineLimit(1)
-                .frame(minWidth:44, maxWidth: 60)
+                .frame(minWidth:50, maxWidth: 65)
         }
     }
 }
